@@ -13,7 +13,7 @@ app = Flask(__name__,
             static_folder='static',
             template_folder='templates')
 
-app.config['SECRET_KEY'] = os.environ['FLASK_KEY']
+app.config['IA\x91^\xc7\xf1~\xa9+\xe8\xaeD<\xf2\x17\xdc\x9cC\x07I\xda\x1f\x8d\xca'] = os.environ['FLASK_KEY']
 socketio = SocketIO(app)
 
 @app.route('/')
