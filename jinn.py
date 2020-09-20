@@ -58,13 +58,13 @@ def get_data_from_audd_api(mode, file_url='', lyrics=''):
         data = {
             'url': file_url,
             'return': 'apple_music',
-            'api_token': os.environ['AUDD_API']
+            'api_token': os.environ['2210322a92fbbbde9241c5515d944535']
         }
         mode_extentsion = 'recognizeWithOffset/'
     elif mode == 'lyrics':
         data = {
             'q': lyrics,
-            'api_token': os.environ['AUDD_API']
+            'api_token': os.environ['2210322a92fbbbde9241c5515d944535']
         }
         mode_extentsion = 'findLyrics/'
     
